@@ -15,9 +15,10 @@ Required Values:
 	-C SNMP Community string
 
 Optional Values:
+
 	-t Timeout. Number of microseconds until first timeout
 	-r Number of retries
-	-e Exceptions. Value is a comma sperated string of exceptions not to check.
+	-e Exceptions. Value is a comma seperated string of exceptions not to check.
     -d Disabled Exceptions. Don't check whether the provided virtual servers are disabled. Comma Seperated
 
 ./check_ltm_vs.php -H IPADDRESS -c COMMUNITYSTRING -e vs_virtualserver1,vs_virtualserver2 -d vs_virtualserver1,vs_virtualserver2
