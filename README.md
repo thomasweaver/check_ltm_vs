@@ -22,3 +22,6 @@ Optional Values:
     -d Disabled Exceptions. Don't check whether the provided virtual servers are disabled. Comma Seperated
 
 ./check_ltm_vs.php -H IPADDRESS -c COMMUNITYSTRING -e vs_virtualserver1,vs_virtualserver2 -d vs_virtualserver1,vs_virtualserver2
+
+
+More can be found at http://www.toms-blog.com/post/wcf-services-and-multiple-bindings-iis/
